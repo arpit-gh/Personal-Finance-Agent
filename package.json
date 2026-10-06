@@ -1,0 +1,23 @@
+{
+  "name": "personal-finance-agent",
+  "version": "1.0.0",
+  "description": "A banking assistant that answers balance questions, explains where the money went, and lets the user set a budget.",
+  "homepage": "https://github.com/arpit-gh/Personal-Finance-Agent#readme",
+  "bugs": {
+    "url": "https://github.com/arpit-gh/Personal-Finance-Agent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit-gh/Personal-Finance-Agent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env --watch index.js"
+  },
+  "dependencies": {
+    "groq-sdk": "^1.6.0"
+  }
+}
