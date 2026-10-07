@@ -41,7 +41,7 @@ const tools = [
     function: {
       name: "getTransactions",
       description:
-        "Get a filtered list of transactions, newest first. Returns at most 10 rows and says how many matched in total",
+        "Get a filtered list of transactions, latest first. Returns at most 10 rows and says how many matched in total",
       parameters: {
         type: "object",
         properties: {
